@@ -1,0 +1,18 @@
+@import '../../../assets/css/style.scss';
+.footer__top {
+    h3 {
+        font-family: $pb;
+        font-size: 18px;
+        line-height: 27px;
+        text-transform: uppercase;
+        font-style: bold;
+    }
+    a {
+        display: grid;
+        font-family: $o;
+        font-size: 14px;
+        line-height: 30px;
+        text-decoration: none;
+        color: $main-cl;
+    }
+}

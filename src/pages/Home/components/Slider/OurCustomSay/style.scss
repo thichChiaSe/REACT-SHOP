@@ -1,0 +1,10 @@
+@import '../../../../../assets/css/style.scss';
+.OurSay {
+    display: flex;
+    justify-content: space-between;
+    h3 {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: $p;
+    }
+}

@@ -1,0 +1,64 @@
+@import "../../assets/css/style.scss";
+label {
+    display: block;
+}
+
+form {
+    .label {
+        width: 150px;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        font-family: $p;
+        margin-right: 16px;
+    }
+}
+
+.input {
+    // width: 150px;
+    // background-color: $grey-bd;
+    border-radius: 12px;
+    padding: 12px 16px;
+    border: 1px solid grey;
+    &.flex {
+        display: flex;
+        align-items: center;
+    }
+    input {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        width: 638px;
+        &::placeholder {
+            color: grey;
+            font-size: 14px;
+            line-height: 1.9rem;
+            font-family: $o;
+        }
+    }
+    input[type="radio"] {
+        width: 16px;
+        height: 16px;
+    }
+    .plus {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        font-family: $p;
+    }
+    .company {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        font-family: $p;
+        margin-left: 16px;
+        width: 34px;
+        margin-right: 109px;
+        &.width-fit {
+            width: fit-content;
+        }
+    }
+    i {
+        margin-left: auto;
+        svg {
+            display: block;
+        }
+    }
+}

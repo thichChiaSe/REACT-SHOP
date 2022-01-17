@@ -1,0 +1,16 @@
+@import '../../assets/css/style.scss';
+.nav__router {
+    &-list {
+        display: flex;
+        justify-content: space-around;
+        padding: 35px;
+        .nav__router-item {
+            a {
+                font-size: 15px;
+                font-family: $p;
+                color: $main-cl;
+                text-decoration: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+@import '../../assets/css/style.scss';
+.categoriHeadline {
+    margin-left: 50px;
+    display: flex;
+    .space__FH {
+        border: 1px solid green;
+        width: 420px;
+        height: 280px;
+        border-radius: 50px;
+        flex-direction: column;
+        /* justify-content: center; */
+        display: flex;
+        margin-right: 32px;
+        &-textbox {
+            padding: 48px 180px 100px 33px;
+            .title {
+                margin-bottom: 8px;
+                font-family: $p;
+                color: $green-cl;
+            }
+            .des {
+                color: $green-cl;
+                font-size: 22px;
+                font-family: $p;
+                font-weight: bold;
+            }
+        }
+        &-btn {
+            margin-left: 38px;
+        }
+    }
+}

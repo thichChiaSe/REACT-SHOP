@@ -1,0 +1,33 @@
+@import '../../../assets/css/style.scss';
+.footer {
+    .container-fluid {
+        .footer__bottom {
+            h3 {
+                font-family: "p";
+                font-size: 18px;
+                line-height: 27px;
+                text-transform: uppercase;
+                font-style: bold;
+                margin-bottom: 16px;
+            }
+            .tags {
+                flex-wrap: wrap;
+                display: flex;
+                width: 100%;
+                a {
+                    background: $blue-bt;
+                    margin-right: 30px;
+                    margin-bottom: 20px;
+                    font-family: $o;
+                    font-size: 14px;
+                    line-height: 30px;
+                    text-decoration: none;
+                    color: $black-cl;
+                }
+            }
+            .copyright {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+@import '../../../../assets/css/style.scss';
+.Categories {
+    .container-fluid {
+        display: flex;
+        .cate__menu {
+            margin-right: 32px;
+        }
+        .cate__menu-item {
+            width: 269px;
+            height: 260px;
+            h3 {
+                text-transform: uppercase;
+                font-size: 18px;
+                font-family: $p;
+            }
+            .tags {
+                margin-top: 22px;
+                display: grid;
+                a {
+                    color: $main-cl;
+                    font-family: $o;
+                    margin-bottom: 18px;
+                }
+            }
+        }
+        .click {
+            padding-bottom: 50px;
+        }
+    }
+}

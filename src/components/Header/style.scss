@@ -1,0 +1,113 @@
+@import '../../assets/css/style.scss';
+.mr {
+    margin-right: 33px;
+}
+
+.ml {
+    margin-left: 33px;
+}
+
+.header {
+    .container-fluid {
+        .header__contact {
+            display: flex;
+            padding: 16px 0;
+            justify-content: space-between;
+            &-list {
+                display: flex;
+                justify-content: center;
+                a {
+                    color: #6A983C;
+                }
+                .header__contact-item {
+                    text-decoration: none;
+                    font-family: "o";
+                    &.active {
+                        &:hover {
+                            cursor: pointer;
+                            color: #6A983C;
+                        }
+                    }
+                }
+            }
+        }
+        .header__bottom {
+            padding: 40px 0px 40px 0px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .header__logo {
+                align-items: center;
+                display: flex;
+            }
+            .header__input {
+                padding: 9px 0 10px 0;
+                align-items: center;
+                display: flex;
+                min-width: 500px;
+                border: 2px solid #D1D1D1;
+                border-radius: 20px;
+                position: relative;
+                justify-content: space-between;
+                &::after {
+                    content: "";
+                    background: $grey-bd;
+                    width: 1px;
+                    height: 20px;
+                    position: absolute;
+                    top: 50%;
+                    left: 35%;
+                    transform: translateY(-50%);
+                }
+                .select {
+                    margin-left: 16px;
+                    border: none;
+                    width: 35%;
+                    cursor: pointer;
+                    padding-right: 24px;
+                    .Allcate {
+                        display: flex;
+                        span {
+                            font-family: "pb";
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 15px;
+                            line-height: 22px;
+                        }
+                        .arrowdown {
+                            margin-left: 8px;
+                        }
+                        .categorieshide {
+                            display: grid;
+                        }
+                    }
+                }
+                .ip {
+                    width: 65%;
+                    padding-left: 24px;
+                    input {
+                        font-family: "o";
+                        border-style: none;
+                        outline: none;
+                        width: 100%;
+                    }
+                }
+                .find {
+                    cursor: pointer;
+                    margin-right: 13px;
+                    // margin-top: 2px;
+                }
+            }
+            .header__right {
+                align-items: center;
+                display: flex;
+                width: 120px;
+                height: 31px;
+                justify-content: space-between;
+                .logout {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

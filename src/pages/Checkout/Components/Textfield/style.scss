@@ -1,0 +1,23 @@
+@import '../../../../assets/css/style.scss';
+.wrap {
+    .label {
+        text-transform: uppercase;
+        margin-top: 32px;
+        margin-bottom: 2px;
+        font-family: $p;
+        font-weight: bold;
+    }
+    input {
+        outline: 0px;
+        border-radius: 12px;
+        padding: 11px 21px 12px 16px;
+        background: #F9F9F9;
+    }
+    .error-text {
+        margin-bottom: 32px;
+        color: red;
+    }
+    .icon-right {
+        display: block;
+    }
+}

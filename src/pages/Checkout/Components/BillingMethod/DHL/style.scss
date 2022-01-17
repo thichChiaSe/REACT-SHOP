@@ -1,0 +1,21 @@
+@import '../../../../../assets/css/style.scss';
+.DHL {
+    display: flex;
+    max-width: 670px;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 15px 16px 15px 16px;
+    .left {
+        .radio {}
+        label {}
+    }
+    .mid {
+        display: flex;
+        span {
+            margin-right: 4px;
+        }
+        p {}
+    }
+    .logo {}
+}

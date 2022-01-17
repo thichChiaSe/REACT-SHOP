@@ -1,0 +1,26 @@
+@import '../../../../assets/css/style.scss';
+.Farmer {
+    .container-fluid {
+        .best__farmer-item {
+            width: 269px;
+            height: 260px;
+            h3 {
+                text-transform: uppercase;
+                font-size: 18px;
+                font-family: $p;
+            }
+            .tags {
+                margin-top: 22px;
+                display: grid;
+                a {
+                    color: $main-cl;
+                    font-family: $o;
+                    margin-bottom: 18px;
+                }
+            }
+        }
+        .click {
+            padding-bottom: 50px;
+        }
+    }
+}
