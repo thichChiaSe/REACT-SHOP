@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2d21a3cd.chunk.css",
+    "main.js": "/static/js/main.75d6b6a0.chunk.js",
+    "main.js.map": "/static/js/main.75d6b6a0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fdb5cb8b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fdb5cb8b.js.map",
+    "static/js/2.b7da13c0.chunk.js": "/static/js/2.b7da13c0.chunk.js",
+    "static/js/2.b7da13c0.chunk.js.map": "/static/js/2.b7da13c0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2d21a3cd.chunk.css.map": "/static/css/main.2d21a3cd.chunk.css.map",
+    "static/js/2.b7da13c0.chunk.js.LICENSE.txt": "/static/js/2.b7da13c0.chunk.js.LICENSE.txt",
+    "static/media/Bitcoin.ae8b4396.svg": "/static/media/Bitcoin.ae8b4396.svg",
+    "static/media/DHL.5403b027.svg": "/static/media/DHL.5403b027.svg",
+    "static/media/FED.73bffa08.svg": "/static/media/FED.73bffa08.svg",
+    "static/media/style.scss": "/static/media/Poppins-Regular.ad19729d.woff2",
+    "static/media/PayPal.f4c47363.svg": "/static/media/PayPal.f4c47363.svg",
+    "static/media/VISA.21fb6296.svg": "/static/media/VISA.21fb6296.svg",
+    "static/media/ic-chevron-left-black.1b7c69f7.svg": "/static/media/ic-chevron-left-black.1b7c69f7.svg",
+    "static/media/ic-chevron-left-green.4404e926.svg": "/static/media/ic-chevron-left-green.4404e926.svg",
+    "static/media/ic-chevron-left-white.7b1c9373.svg": "/static/media/ic-chevron-left-white.7b1c9373.svg",
+    "static/media/ic-chevron-right-black.0015d49a.svg": "/static/media/ic-chevron-right-black.0015d49a.svg",
+    "static/media/ic-chevron-right-green.2c331293.svg": "/static/media/ic-chevron-right-green.2c331293.svg",
+    "static/media/ic-chevron-right-white.66c440dc.svg": "/static/media/ic-chevron-right-white.66c440dc.svg",
+    "static/media/optionStateCountry.0dccbe1d.svg": "/static/media/optionStateCountry.0dccbe1d.svg",
+    "static/media/trandan.14e1430f.png": "/static/media/trandan.14e1430f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fdb5cb8b.js",
+    "static/js/2.b7da13c0.chunk.js",
+    "static/css/main.2d21a3cd.chunk.css",
+    "static/js/main.75d6b6a0.chunk.js"
+  ]
+}
