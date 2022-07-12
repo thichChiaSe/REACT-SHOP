@@ -16,9 +16,10 @@
         /* justify-content: center; */
         display: flex;
         margin-right: 32px;
-        background-image: url("../../assets/img/product_space_for_heading.png");
+        // background-image: url("../../assets/img/product_space_for_heading.png");
         &-textbox {
             padding: 48px 180px 100px 33px;
+            position: absolute;
             .title {
                 margin-bottom: 8px;
                 font-family: $p;
@@ -34,6 +35,8 @@
         }
         &-btn {
             margin-left: 38px;
+            margin-top:200px;
+            position: absolute;
         }
     }
 }
