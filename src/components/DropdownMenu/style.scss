@@ -13,14 +13,34 @@
             margin-right: 80px;
             justify-content: space-around;
             .item {
+                flex-direction: column;
                 display: flex;
                 font-size: 15px;
                 line-height: 22.5px;
                 font-family: $p;
                 cursor: pointer;
-            }
-            .i {
-                margin-left: 2px;
+                .wrap-item{    
+                    align-content: center;
+                    align-items: center;
+                    position: absolute;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    justify-items: center;
+                    width: 109px;
+                    margin-top: 15px;
+                    .item-show{
+                        display:none;
+                    }
+                }
+                &:hover .wrap-item{
+                    .item-show{
+                        display:block;
+                    }
+                }
+                .i {
+                    margin-left: 2px;
+                }
             }
         }
     }
