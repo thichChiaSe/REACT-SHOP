@@ -1,0 +1,9 @@
+@import "../../../../assets/css/style.scss";
+.blog {
+    margin: 64px 0 64px;
+    .container-fluid {
+        .blog__list {
+            display: flex;
+        }
+    }
+}

@@ -19,6 +19,15 @@ const authService ={
             },body:JSON.stringify(data)// thực hiện gửi đi backend
 
         }).then(res=>res.json())// lấy về
+    },
+    searchProduct(data){
+        return fetch(`${API}/product?name=${data}`,{
+            method:"GET",
+           
+           
+
+        }).then(res=>res.json())
     }
+    
 }
 export default authService;

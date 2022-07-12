@@ -6,6 +6,8 @@ import BestSellingProduct from "./components/BestProduct";
 import Farmer from "./components/BestFamer";
 import { SectionCategory } from "./components/SectionCategory";
 import Slider from "./components/Slider";
+import { Headline } from "./components/SectionHeadline";
+import { BlogPost } from "./components/BlogPost";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <BestSellingProduct />
       <Farmer />
       <Slider />
+      <Headline/>
+      <BlogPost/>
     </div>
   );
 }

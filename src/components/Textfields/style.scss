@@ -6,7 +6,7 @@ label {
 form {
     .label {
         width: 150px;
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 1.8rem;
         font-family: $p;
         margin-right: 16px;
@@ -20,14 +20,17 @@ form {
     padding: 12px 16px;
     border: 1px solid grey;
     &.flex {
+        border: none;
+        max-width: 670px;
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
     input {
         border: none;
         outline: none;
         background-color: transparent;
-        width: 638px;
+        width: 510px;
         &::placeholder {
             color: grey;
             font-size: 14px;
@@ -50,7 +53,7 @@ form {
         font-family: $p;
         margin-left: 16px;
         width: 34px;
-        margin-right: 109px;
+        // margin-right: 390px;
         &.width-fit {
             width: fit-content;
         }

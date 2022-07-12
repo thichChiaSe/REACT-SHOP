@@ -1,0 +1,12 @@
+@import '../../../../../../assets/css/style.scss';
+.Top {
+    display: flex;
+    justify-content: space-between;
+    h3 {
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: $p;
+    }
+}

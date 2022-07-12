@@ -7,6 +7,9 @@ import TitleCheckOut from "../TitleCheckout";
 
 function PaymentMethod() {
   const [isActive, setIsActive] = useState(false);
+  const [isActive1, setIsActive1] = useState(false);
+  const [isActive2, setIsActive2] = useState(false);
+  const [isOke,setIsOk] =useState(false);
   return (
     <section className="payment">
       <TitleCheckOut
@@ -20,10 +23,12 @@ function PaymentMethod() {
               <TextFields
                 typeInput="radio"
                 companyName="Credit card"
+                plus="as"
                 type="icon-right"
                 flex
                 wFit="fit"
                 icon={<IconVisa />}
+
                 onClick={(e) => setIsActive(!isActive)}
               />
             </div>
@@ -65,15 +70,15 @@ function PaymentMethod() {
             <div className="form__dropdown-select">
             <TextFields
                 typeInput="radio"
-                companyName="Credit card"
+                companyName="Paypal"
                 type="icon-right"
                 flex
                 wFit="fit"
                 icon={<IconPaypal />}
-                onClick={(e) => setIsActive(!isActive)}
+                onClick={(e) => setIsActive1(!isActive1)}
               />
             </div>
-            <div className="form__dropdown-list">
+            {isActive1&& (<div className="form__dropdown-list">
               <div className="form__dropdown-row">
                 <div className="form__dropdown-item">
                   <TextFields label="Card number" placeholder="Card number" />
@@ -94,20 +99,21 @@ function PaymentMethod() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div>)}
           </div>
           <div className="form__dropdown">
             <div className="form__dropdown-select">
             <TextFields
+                onChange={()=>{if(isOke==false){setIsOk(true)}else{setIsOk(false)}}}
                 typeInput="radio"
-                companyName="Credit card"
+                companyName="Bitcoin"
                 type="icon-right"
                 flex
                 wFit="fit"
                 icon={<IconBitcoin />}
+                onClick={(e) => setIsActive2(!isActive2)}
               />
-            </div>
-            <div className="form__dropdown-list">
+            {isActive2&&(<div className="form__dropdown-list">
               <div className="form__dropdown-row">
                 <div className="form__dropdown-item">
                   <TextFields label="Card number" placeholder="Card number" />
@@ -128,6 +134,7 @@ function PaymentMethod() {
                   </div>
                 </div>
               </div>
+            </div>)}
             </div>
           </div>
         </form>

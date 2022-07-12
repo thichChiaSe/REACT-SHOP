@@ -7,21 +7,21 @@ import Checkout from "./pages/Checkout";
 import AuthPage from "./pages/Auth";
 import { Provider } from "react-redux";
 import store from "./store";
+import { ProductItemIndex } from "./components/ProductItem";
 function App() {
   return (
     <div className="App">
       {/* <Checkout/> */}  <Provider store={store}>
-        
       <BrowserRouter>
         
         {/* <div className="Top-right">
           <ul>
-            <li>
-            <Link to="/">Home</Link>
-            </li>
-            <li>
-            <Link to="/checkout">Checkout</Link>
-            </li>
+          <li>
+          <Link to="/">Home</Link>
+          </li>
+          <li>
+          <Link to="/checkout">Checkout</Link>
+          </li>
           </ul>
         </div> */}
           <Routes>

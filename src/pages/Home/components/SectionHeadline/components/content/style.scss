@@ -1,0 +1,41 @@
+@import '../../../../../../assets/css/style.scss';
+.content {
+    display: flex;
+    justify-content: space-between;
+    .product__item-tag {
+        >img {
+            width: 100%;
+        }
+        .center-content {
+            width: 260px;
+            margin: 16px 0 16px;
+            h3 {
+                display: flex;
+                align-items: center;
+                font-family: $p;
+                font-size: 15px;
+                margin-bottom: 4px;
+            }
+            span {
+                color: $text-title-product;
+            }
+        }
+        .bottom {
+            justify-content: space-between;
+            display: flex;
+            .price {
+                .top {
+                    font-size: 18px;
+                    font-weight: bold;
+                    font-family: $p;
+                }
+                .bottom {
+                    font-family: $p;
+                    font-size: 12px;
+                    color: red;
+                    text-decoration-line: line-through;
+                }
+            }
+        }
+    }
+}

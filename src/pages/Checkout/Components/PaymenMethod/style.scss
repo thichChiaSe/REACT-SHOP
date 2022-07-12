@@ -1,8 +1,14 @@
 @import "../../../../assets/css/style.scss";
 .payment {
     margin-top: 48px;
+    .form-wrapper {
+        max-width: 670px;
+    }
     .form__dropdown {
-        padding: 16px;
+        border: 1px solid grey;
+        margin: 32px 0px;
+        border-radius: 12px;
+        &-select {}
         &-row {
             display: flex;
             &:last-child {
@@ -14,16 +20,21 @@
             }
             .right {
                 display: flex;
-                gap: 50px;
+                gap: 16px;
+                margin-bottom: 16px;
                 .form__dropdown-item {
                     max-width: 120px;
                 }
             }
         }
         &-item {
-            .label {}
+            // margin-left: 16px;
+            .label {
+                // margin-bottom: 16px;
+            }
         }
         &-list {
+            margin-left: 16px;
             @include transition($t);
         }
     }

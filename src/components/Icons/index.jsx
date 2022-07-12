@@ -10,7 +10,16 @@ import imgFED from "../../assets/img/FED.svg"
 import imgVisa from "../../assets/img/VISA.svg"
 import imgPaypal from "../../assets/img/PayPal.svg"
 import imgBitcoin from "../../assets/img/Bitcoin.svg"
+import productimgsss from "../../assets/img/product.png"
+
 import "./style.scss";
+export function Productimg(){
+  return(
+    <div className="productimgs">
+      <img src={productimgsss} alt="" />
+    </div>
+  )
+}
 export function IconBitcoin(){
   return(
     <div className="bitcoin">

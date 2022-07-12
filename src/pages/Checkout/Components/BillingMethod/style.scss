@@ -23,8 +23,14 @@
                 padding: 15px 16px 15px 16px;
                 .method {
                     .left {
+                        input {
+                            margin-right: 16px;
+                        }
                         display: flex;
-                        .name {}
+                        .name {
+                            font-size: 1.2rem;
+                            font-family: $p;
+                        }
                     }
                     justify-content: space-between;
                     display: flex;

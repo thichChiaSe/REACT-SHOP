@@ -4,6 +4,7 @@ import "./style.scss";
 
 import classnames from "classnames";
 function TextFields({
+  onChange,
   label,
   value,
   errorText,
@@ -26,9 +27,11 @@ function TextFields({
     <label>
       <div className="label">{label}</div>
       <div className={classnames("input", { flex })}>
+        <div className="left">
         {type === "icon-left" && icon}
-        <input type={typeInput} value={value} {...rest} />
+        <input onChange={onChange} type={typeInput} value={value} {...rest} />
         <span className={classnames("company", `width-${ wFit }`)}>{companyName}</span>
+        </div>
         <div className="center">
           {plus && <span className="plus --green-bold">{plusText}</span>}
           {tag && (
