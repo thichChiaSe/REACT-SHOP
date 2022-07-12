@@ -5,23 +5,28 @@
     width: 70%;
     justify-content: space-around;
     .space__FH {
-        border: 1px solid green;
+        // border-radius: 50px;
+        // border: 1px solid green;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #F4F8EC;
+        border: 0.5px solid #D6D6D6;
+        border-radius: 12px;
         width: 420px;
         height: 280px;
-        border-radius: 50px;
         flex-direction: column;
         /* justify-content: center; */
         display: flex;
         margin-right: 32px;
+        background-image: url("../../assets/img/product_space_for_heading.png");
         &-textbox {
             padding: 48px 180px 100px 33px;
             .title {
                 margin-bottom: 8px;
                 font-family: $p;
-                color: $green-cl;
+                color: $white-cl;
             }
             .des {
-                color: $green-cl;
+                width:250px;
+                color: $white-cl;
                 font-size: 22px;
                 font-family: $p;
                 font-weight: bold;

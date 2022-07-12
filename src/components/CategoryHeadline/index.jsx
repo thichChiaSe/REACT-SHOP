@@ -5,8 +5,8 @@ import SpaceForHeading from "./spaceHeading";
 export const CategoriHeadline = () => {
   return (
     <div className="categoriHeadline">
-     <SpaceForHeading/>
-     <SpaceForHeading/>
+     <SpaceForHeading title="Banner subfocus" des="Space for heading" />
+     <SpaceForHeading title="Banner subfocus 2" des="Space for heading 2"/>
     </div>
   );
 };

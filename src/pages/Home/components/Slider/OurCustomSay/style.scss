@@ -2,9 +2,12 @@
 .OurSay {
     display: flex;
     justify-content: space-between;
+    // width: calc(100% - 16px);
+    padding: 0 45px 0px 45px;
     h3 {
         font-size: 15px;
         font-weight: bold;
         font-family: $p;
     }
+  
 }

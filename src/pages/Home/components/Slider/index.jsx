@@ -4,6 +4,10 @@ import SliderItem from "./SliderItem";
 import OurSay from "./OurCustomSay";
 import Flickity from "react-flickity-component";
 import "../../../../assets/css/libs.scss";
+import TigerTran from "../../../../assets/img/trandan.png";
+import Avatar1 from "../../../../assets/img/avataritems.png";
+import Cat from "../../../../assets/img/mewmew.png";
+import Avatar2 from "../../../../assets/img/avatar2slider.png";
 export const Slider = () => {
   // const sliderlist = [
   //     "Nguyen Van A","Nguyen Van A","Nguyen Van A","Nguyen Van A","Nguyen Van A"
@@ -11,7 +15,8 @@ export const Slider = () => {
   const flickityOptions = {
     initialIndex: 2,
     pageDots: false,
-    wrapAround: true
+    wrapAround: true,
+    autoPlay: 1500,
   };
   return (
     <div className="slider">
@@ -27,20 +32,24 @@ export const Slider = () => {
             static // default false
           >
             <SliderItem
-              title="Lorem asdasd asdasdasdggg qwedasczxd asdasdasd "
-              item="Co van toi cao"
+              title=" This is an super space for your customers qoute. Don’t worry it works smooth as pie. You will get all what you need by writiing a text here "
+              item="Jane Wick"
+              imgs={Avatar1}
             />
             <SliderItem
-              title="Lorem asdasd asdasdasd 123123123123 qwedasczxd asdasdasd "
-              item="Quoc Su"
+              title=" This is an super space for your customers qoute. Don’t worry it works smooth as pie. You will get all what you need by writiing a text here "
+              item="John Cena"
+              imgs={Avatar2}
             />
             <SliderItem
-              title="Lorem asdasd asdasdasd asdasdsaqeweq qwedasczxd asdasdasd "
-              item="TigerCali"
+              title=" This is an super space for your customers qoute. Don’t worry it works smooth as pie. You will get all what you need by writiing a text here "
+              item="Tiger Cali"
+              imgs={TigerTran}
             />
             <SliderItem
-              title="Lorem asdasd "
-              item="Tran Dan"
+              title=" This is an super space for your customers qoute. Don’t worry it works smooth as pie. You will get all what you need by writiing a text here 'test fillllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll'"
+              item="Boss"
+              imgs={Cat}
             />
           </Flickity>
         </div>
