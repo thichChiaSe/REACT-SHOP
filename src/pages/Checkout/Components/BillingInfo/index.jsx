@@ -7,13 +7,15 @@ import TextField from "../Textfield";
 import "./style.scss";
 
 export const BillingInfo = () => {
-  const { form, error, _onChange, submit } = useForm({username: "",
-  email: "",
-  userlastname:"",
-  address: "",
-  phone: "",
-  state: "",
-  code: "",});
+  const { form, error, _onChange, submit } = useForm({
+    username: "",
+    email: "",
+    userlastname: "",
+    address: "",
+    phone: "",
+    state: "",
+    code: "",
+  });
   return (
     <div className="Billing__info-wrap">
       <h1>Billing info</h1>
@@ -38,7 +40,7 @@ export const BillingInfo = () => {
             label="Address"
             value={form.address}
             onChange={_onChange("address")}
-            placeholder="Email address"
+            placeholder="Address"
             errorText={error ? error.address : ""}
           />
           <TextField
@@ -81,9 +83,9 @@ export const BillingInfo = () => {
             errorText={error ? error.code : ""}
           />
         </div>
-        <div className="btn">
+        {/* <div className="btn">
           <Button type="submit" onClick={submit}>Submit</Button>
-        </div>
+        </div> */}
       </form>
     </div>
   );

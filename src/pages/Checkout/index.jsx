@@ -4,10 +4,12 @@ import React from "react";
 import BillingInfo from "./Components/BillingInfo";
 import BillingMethod from "./Components/BillingMethod";
 import PaymentMethod from "./Components/PaymenMethod";
+import OrderSummary from "./Components/OrderSummary"
+import "./style.scss";
 export default function Checkout() {
   return(
   <>
-   <div className="Checkout">
+   <div className="Checkout" >
           {/* <Header/>
           <DropDownMenu/> */}
       <div className="container-fluid">
@@ -17,6 +19,7 @@ export default function Checkout() {
           {/* <Additional/> */}
           {/* <Confirmation/> */}
       </div>
+          <OrderSummary/>
   </div>;
   </>
   )}

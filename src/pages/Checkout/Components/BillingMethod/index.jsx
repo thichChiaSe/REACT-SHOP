@@ -26,7 +26,7 @@ export const BillingMethod = () => {
             </div>
           );
         })}
-        <Button onClick={handleSubmit}>Submit</Button>
+        {/* <Button onClick={handleSubmit}>Submit</Button> */}
       </form>
     </div>
   );
