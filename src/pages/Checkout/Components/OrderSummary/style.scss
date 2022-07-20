@@ -1,5 +1,22 @@
 @import '../../../../assets/css/style.scss';
 .site-card-border-less-wrapper {
-    padding: 30px;
+    padding: 16px;
     background: #ececec;
+    border-radius:12px;
+    margin-top:64px;
+    margin-right:45px;
+  }
+  .title{
+    margin-bottom:40px;
+  }
+  .ant-divider-inner-text{
+    font-family: $p;
+    font-size:22px;
+    font-weight:600;
+    margin-right:260px;
+    .des{
+      font-weight:200;
+      font-size:12px;
+      word-spacing: 10px;
+    }
   }
